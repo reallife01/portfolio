@@ -1,0 +1,861 @@
+*,*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(2, 2, 37);
+    overflow-x: hidden;
+    max-width: 120rem;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0rem 1rem 3rem rgba(9, 169, 175, 0.1); */
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    
+}
+
+.navigation .navList a {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+
+
+.navigation .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -35rem;
+}
+
+.navigation .logo img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navigation .logo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: gray;
+    
+    
+}
+
+.navigation .btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10rem;
+    border: 2px solid gray;
+    background: rgb(10, 1, 15);
+    box-shadow: 0 0 1rem red;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+
+.navigation .logo span {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+
+.navigation a {
+    display: inline-block;
+}
+
+/* ============================================Nav============================================ */
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroSection {
+    background: rgb(3, 19, 29);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0 0 1rem palegreen; */
+    margin-bottom: 3rem;
+
+}
+
+.heroSection .heroContainerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: -15rem;
+
+    
+
+}
+
+.heroContainerRight {
+    margin-right: 15rem;
+    
+}
+
+.heroContainerRight img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+
+.heroContainerLeft h2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px;
+    /* box-shadow: 0 0 2rem yellowgreen; */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: gray;
+}
+
+.heroContainerLeft h2 span{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.heroContainerLeft .course h3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2px;
+    background: rgb(2, 2, 37);
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+}
+
+.course h3 {
+    margin-top: 25px;
+
+}
+/* ==============================================Section1================================ */
+
+.firstContainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(3, 19, 29);
+    height: 40rem;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    color: beige;
+}
+
+.secondContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(2, 2, 37);
+    width: 50rem;
+    height: 30rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+.secondContainer .cardLeft {
+    margin-right: 9rem;
+}
+
+.secondContainer .cardLeft img {
+    margin-left: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.secondContainer .cardLeft p {
+    color: greenyellow;
+
+}
+
+.secondContainer .cardLeft p strong {
+    color: gray
+}
+
+.secondContainer .cardRight h5, h3 {
+    color: white;
+}
+
+.secondContainer .cardRight p {
+    color: white;
+}
+
+.secondContainer .cardRight  .rank1 {
+    background: rgb(14, 114, 21);
+    height: 17px;
+    width: 20rem;
+}
+
+.secondContainer .cardRight  .rank2 {
+    background: rgb(14, 114, 21);
+    height: 17px;
+    width: 12rem;
+}
+
+.secondContainer .cardRight  .rank3 {
+    background: rgb(14, 114, 21); 
+    height: 17px;
+    width: 15rem;
+}
+
+.secondContainer .cardRight  .rank4 {
+    background: rgb(14, 114, 21);
+    height: 17px;
+    width: 18rem;
+}
+
+/* ===============================================section2================================================ */
+
+.armySection {
+    background:rgba(9, 169, 175, 0.1);
+}
+
+.armySection .armyH {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.armySection .armyP {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 40px;
+}
+
+.armySection .armyP .armyThree {
+    color: white;
+}
+
+.armySection .armyI {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 30rem;
+    margin-left: 30rem;
+    padding-bottom: 4rem;
+    
+}
+
+.armySection .armyI img {
+    display: block;
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
+/* ==========================================Section3====================================================== */
+
+.popoLee h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popoLee .leeCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    margin-left: 20rem;
+
+}
+
+.popoLee .leeCards i {
+    font-size: 4.5rem;
+    color: green;
+
+}
+
+.popoLee .leeCards h5 {
+    color: aliceblue;
+    margin-top: -2px;
+}
+
+.popoLee .leeCards p {
+    color: gray;
+    margin-top: -2px;
+}
+
+/*================================================Section4================================================*/
+
+.cardContanerMain{
+    background: rgba(9, 169, 175, 0.1);
+}
+
+
+.cardContanerMain .cardContainer01{
+    display:  flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px;
+    gap: 10rem;
+    padding-top: 8rem;
+}
+
+.cardContanerMain .cardContainer01 .cardContainer1 i {
+    font-size: 4.5rem;
+    color: green;
+}
+
+.cardContanerMain .cardContainer01 .cardContainer2 i {
+    font-size: 4.5rem;
+    color: green;
+}
+
+.cardContanerMain .cardContainer01 .cardContainer3 i {
+    font-size: 4.5rem;
+    color: green;
+}
+
+.cardContanerMain .cardContainer01 .cardContainer1 h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-left: 0.7rem;
+}
+.cardContanerMain .cardContainer01 .cardContainer2 h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.cardContanerMain .cardContainer01 .cardContainer3 h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-left: 2rem;
+}
+
+
+/* =============================================Section5=================================================== */
+
+
+.cardClassMain {
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.cardClassMain .cardClass {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.cardClassMain .cardClass .cardClassOne  .cardClassTwo1 {
+    position: relative;
+
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo1 .bottomLeft {
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+}
+
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo1 .bottomRight1 {
+    position: absolute;
+    bottom: 36px;
+    right: 7.6rem;
+    cursor: pointer;
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo1 .bottomRight2 {
+    position: absolute;
+    bottom: 20px;
+    right: 7rem;
+}
+/* 1 */
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo2 {
+    position: relative;
+
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo2 .bottomLeft {
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+}
+
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo2 .bottomRight1 {
+    position: absolute;
+    bottom: 36px;
+    right: 6.6rem;
+    cursor: pointer;
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo2 .bottomRight2 {
+    position: absolute;
+    bottom: 20px;
+    right: 6rem;
+}
+/* 2 */
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo3 {
+    position: relative;
+
+}
+
+.cardClassMain h3{
+    font-size: 20px;
+    
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo3 .bottomLeft {
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo3 .bottomRight1 {
+    position: absolute;
+    bottom: 36px;
+    right: 8.6rem;
+    cursor: pointer;
+}
+
+.cardClassMain .cardClass .cardClassOne .cardClassTwo3 .bottomRight2 {
+    position: absolute;
+    bottom: 20px;
+    right: 8rem;
+}
+/* 3 */
+
+
+.cardClassMain .cardClass .cardClassOne h3 {
+    text-align: right;
+
+}
+
+.cardClassMain .cardClass .cardClassOne h4 {
+    cursor: pointer;
+    font-size: small;
+}
+
+/**********************************BlogSection********************************************/
+.blogSection {
+    background: rgb(2, 2, 37);
+    height: 80vh;
+    padding: 3.5rem 4.5rem;
+
+}
+
+.blogText {
+    text-align: center;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.blogBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 80%;
+    margin: 0 10rem;
+
+}
+
+.blogCon {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.imgCon img {
+    position: relative;
+    width: 245px;
+    height: 245px;
+
+    
+}
+.imgCon{
+    position: relative;
+
+}
+
+.imgCon .blog {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    font-size: 20px;
+    padding-left: 2rem;
+    color: white;
+}
+
+
+.blogCon h5 {
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.blogCon p {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+    
+
+
+/* =================================================Section6===================================================== */
+
+.justCard {
+    background: rgba(9, 169, 175, 0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    height: 400px;
+}
+
+.justCard .justMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.justCard .justMain i {
+    font-size: 3rem;
+    color: green;
+    
+}
+
+.justCard .justMain p {
+    color: gray;
+}
+
+/* ==================================================================================================== */
+
+.footMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 5rem;
+    height: 70px;
+}
+
+.footMain .footMain2 {
+    color: gray;
+}
+
+.footMain .footMain3 i {
+    justify-content: space-between;
+    align-items: space-between;
+
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .navigation .logo {
+        margin-left: 2rem;
+        margin-right: 12rem;
+    }
+
+        .navList {
+            margin-left: -83rem;
+        }
+
+
+
+    .navigation .btn {
+        margin-left: 15rem;
+    }
+        .heroSection .heroContainerLeft {
+            margin-left: 13rem;
+        }
+
+        .cardContainer01{
+            margin-left: 20px;
+            padding-left: -30px;
+        }
+
+        .secondContainer {
+            width: 50rem;
+            height: 30rem;
+            margin-left: 10rem;
+            margin-top: 2rem;
+        }
+        .armySection .armyI {
+            margin-right: 35rem;
+            margin-left: 20rem;
+            padding-bottom: 4rem;
+    
+        }
+
+    .blogText{
+        margin-top: -3rem;
+    }
+    .imgCon {
+        margin-left: -5rem;
+    }
+        
+
+}
+
+@media screen and (max-width:992px) {
+    .body {
+            overflow-x: hidden;
+        }
+    .navigation .btn {
+            margin-left: 6rem;
+        }
+.navigation .logo {
+    margin-left: 1rem;
+    margin-right: 20rem;
+}
+
+                .navList {
+                    margin-left: -97rem;
+                }
+
+    .heroSection .heroContainerLeft {
+    margin-left: 20rem;
+    
+    }
+    .heroContainerRight{
+        margin-left: 12rem;
+    }
+
+                .secondContainer {
+                    width: 50rem;
+                    height: 30rem;
+                    margin-left: 7rem;
+                    margin-top: 2rem;
+                }
+        .armySection .armyI {
+        margin-right: 25rem;
+        margin-left: 15rem;
+        padding-bottom: 4rem;
+        }
+        .imgCon {
+            margin-left: -9rem;
+        }
+
+
+        
+}
+
+ @media screen and (max-width:600px) {
+    .body {
+            overflow-x: hidden;
+        }
+    .navigation .logo {
+        margin-left: 24rem;
+        }
+    .navigation .btn {
+    margin-left: -18rem;
+    }
+    .navList {
+        margin-right: 2rem ;
+        margin-left: -1rem;
+    }
+
+    .heroSection .heroContainerLeft {
+        margin-left: 30rem;
+    }
+    .firstContainer
+    {
+        margin-left: 20rem;
+    }
+    .secondContainer {
+    width: 50rem;
+    height: 30rem;
+    margin-left: -17rem;
+    margin-top: 2rem;
+    }
+
+    .armySection {
+        margin-left: 15rem;
+    }
+        .armySection .armyI {
+        margin-right: 15rem;
+        margin-left: -4rem;
+        padding-bottom: 4rem;
+        }
+
+    .popoLee{
+        margin-left: 8rem;
+        margin-bottom: 10rem;
+        margin-right: 10rem;
+        padding-top: 5rem;
+        
+
+    }
+
+    .cardContanerMain {
+        margin-left: 27rem;
+        padding-left: -12rem;
+        padding-right: 52rem;
+        
+        
+    }
+
+    .blogBox {
+        margin-left: 15rem;
+    }
+    .justMain {
+        margin-left: 13rem;
+    }
+ 
+ }
+
+ @media screen and (max-width:460px){
+    .body {
+            overflow-x: hidden;
+        }
+    .navigation .logo {
+            margin-left: 25rem;
+        }
+    
+        .navigation .btn {
+            margin-left: -6rem;
+        }
+    
+        .navList {
+            margin-right: 8rem;
+            margin-left: 2rem;
+        }
+    
+        .heroSection .heroContainerLeft {
+            margin-left: 40rem;
+        }
+    
+        .firstContainer {
+            margin-left: 20rem;
+        }
+    
+        .secondContainer {
+            width: 50rem;
+            height: 30rem;
+            margin-left: -17rem;
+            margin-top: 2rem;
+        }
+    
+        .armySection {
+            margin-left: 20rem;
+        }
+    
+        .armySection .armyI {
+            margin-right: 10rem;
+            margin-left: -10rem;
+            padding-bottom: 2rem;
+        }
+    
+        .popoLee {
+            margin-left: 8rem;
+            margin-bottom: 10rem;
+            margin-right: 10rem;
+            padding-top: 5rem;
+    
+    
+        }
+    
+        .cardContanerMain {
+            margin-left: 27rem;
+            padding-left: -12rem;
+            padding-right: 52rem;
+    
+    
+        }
+    
+        .blogBox {
+            margin-left: 8rem;
+        }
+    
+        .justMain {
+            margin-left: 24rem;
+        }
+    .footMain3 {
+        margin-right: -20rem;
+    }
+ }
